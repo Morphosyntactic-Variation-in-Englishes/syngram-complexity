@@ -1,0 +1,41 @@
+
+summary(GI_max_nocorr.nb)
+Generalized linear mixed model fit by maximum likelihood (Laplace
+  Approximation) [glmerMod]
+ Family: Negative Binomial(365.6205)  ( log )
+Formula: GI ~ log10_natives + prop_non_natives + language_type + (1 |  
+    corpus) + (1 | macro_region) + (0 + log10_natives | macro_region) +  
+    (0 + prop_non_natives | macro_region) + offset(log_tokens)
+   Data: df
+
+      AIC       BIC    logLik -2*log(L)  df.resid 
+  23203.4   23259.1  -11591.7   23183.4      1917 
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-7.0456 -0.5967  0.0286  0.6550  3.3264 
+
+Random effects:
+ Groups         Name             Variance  Std.Dev.
+ macro_region   prop_non_natives 0.0537022 0.23174 
+ macro_region.1 log10_natives    0.0018486 0.04300 
+ macro_region.2 (Intercept)      0.1270456 0.35643 
+ corpus         (Intercept)      0.0003178 0.01783 
+Number of obs: 1927, groups:  macro_region, 6; corpus, 3
+
+Fixed effects:
+                  Estimate Std. Error z value Pr(>|z|)    
+(Intercept)      -0.812737   0.169653  -4.791 1.66e-06 ***
+log10_natives     0.030362   0.020184   1.504 0.132510    
+prop_non_natives  0.167497   0.115987   1.444 0.148710    
+language_typeL1c  0.006827   0.017703   0.386 0.699765    
+language_typeL2  -0.068174   0.018850  -3.617 0.000298 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Correlation of Fixed Effects:
+            (Intr) lg10_n prp_n_ lng_L1
+log10_natvs -0.236                     
+prp_nn_ntvs -0.209  0.152              
+lngg_typL1c -0.053 -0.018  0.053       
+langg_typL2 -0.054 -0.016  0.045  0.939

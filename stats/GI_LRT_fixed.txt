@@ -1,0 +1,15 @@
+
+drop1(GI_max_nocorr.nb, test="Chisq")
+Single term deletions
+
+Model:
+GI ~ log10_natives + prop_non_natives + language_type + (1 | 
+    corpus) + (1 | macro_region) + (0 + log10_natives | macro_region) + 
+    (0 + prop_non_natives | macro_region) + offset(log_tokens)
+                 npar   AIC     LRT Pr(Chi)    
+<none>                23203                    
+log10_natives       1 23204   2.084  0.1488    
+prop_non_natives    1 23203   1.774  0.1829    
+language_type       2 23334 134.255  <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1

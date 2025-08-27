@@ -1,0 +1,21 @@
+overdisp_fun(AI_max_nocorr)  #using code from Bolker et al. (2017): GLMM FAQ
+
+# check other model assumptions
+
+check_zeroinflation(AI_max_nocorr)
+
+check_collinearity(AI_max_nocorr)
+
+      chisq       ratio         rdf           p 
+9596.216531    5.003241 1918.000000    0.000000 
+Model has no observed zeros in the response variable.
+NULL
+# Check for Multicollinearity
+
+Low Correlation
+
+             Term  VIF       VIF 95% CI adj. VIF Tolerance Tolerance 95% CI
+    log10_natives 1.02 [1.00,     1.26]     1.01      0.98     [0.79, 1.00]
+ prop_non_natives 1.02 [1.00,     1.26]     1.01      0.98     [0.80, 1.00]
+    language_type 1.00 [1.00,      Inf]     1.00      1.00     [0.00, 1.00]
+

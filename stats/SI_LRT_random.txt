@@ -1,0 +1,10 @@
+anova(SI_max_nocorr.nb, SI_max_nocorr_m0.nb) #non-significant
+Data: df
+Models:
+SI_max_nocorr_m0.nb: SI ~ log10_natives + prop_non_natives + language_type + (1 | corpus) + (0 + log10_natives | macro_region) + (0 + prop_non_natives | macro_region) + offset(log_tokens)
+SI_max_nocorr.nb: SI ~ log10_natives + prop_non_natives + language_type + (1 | corpus) + (1 | macro_region) + (0 + log10_natives | macro_region) + (0 + prop_non_natives | macro_region) + offset(log_tokens)
+                    npar   AIC   BIC logLik -2*log(L)  Chisq Df Pr(>Chisq)
+SI_max_nocorr_m0.nb    9 20637 20687 -10309     20619                     
+SI_max_nocorr.nb      10 20638 20694 -10309     20618 0.3368  1     0.5617
+> 
+

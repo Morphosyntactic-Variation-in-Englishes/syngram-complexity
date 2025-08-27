@@ -1,0 +1,13 @@
+
+confint(SI_max_nocorr.nb)
+Computing profile confidence intervals ...
+                        2.5 %       97.5 %
+.sig01            0.000000000  0.193984966
+.sig02            0.011530160  0.053232156
+.sig03            0.000000000  0.242375294
+.sig04            0.000000000  0.123433846
+(Intercept)       4.996579047  5.312234767
+log10_natives    -0.061023691 -0.005683062
+prop_non_natives  0.006708315  0.210847535
+language_typeL1c -0.017240753  0.096187762
+language_typeL2  -0.142520318 -0.015741747

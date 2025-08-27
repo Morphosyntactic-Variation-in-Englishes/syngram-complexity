@@ -1,0 +1,21 @@
+anova(GI_max_nocorr.nb, GI_max_nocorr_m0.nb) 
+Data: df
+Models:
+GI_max_nocorr_m0.nb: GI ~ log10_natives + prop_non_natives + language_type + (1 | corpus) + (0 + log10_natives | macro_region) + (0 + prop_non_natives | macro_region) + offset(log_tokens)
+GI_max_nocorr.nb: GI ~ log10_natives + prop_non_natives + language_type + (1 | corpus) + (1 | macro_region) + (0 + log10_natives | macro_region) + (0 + prop_non_natives | macro_region) + offset(log_tokens)
+                    npar   AIC   BIC logLik -2*log(L)  Chisq Df Pr(>Chisq)    
+GI_max_nocorr_m0.nb    9 23229 23279 -11606     23211                         
+GI_max_nocorr.nb      10 23203 23259 -11592     23183 27.591  1  1.499e-07 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+anova(GI_max_nocorr.nb, GI_max_nocorr_m1.nb)
+Data: df
+Models:
+GI_max_nocorr_m1.nb: GI ~ log10_natives + prop_non_natives + language_type + (1 | macro_region) + (0 + log10_natives | macro_region) + (0 + prop_non_natives | macro_region) + offset(log_tokens)
+GI_max_nocorr.nb: GI ~ log10_natives + prop_non_natives + language_type + (1 | corpus) + (1 | macro_region) + (0 + log10_natives | macro_region) + (0 + prop_non_natives | macro_region) + offset(log_tokens)
+                    npar   AIC   BIC logLik -2*log(L)  Chisq Df Pr(>Chisq)
+GI_max_nocorr_m1.nb    9 23202 23252 -11592     23184                     
+GI_max_nocorr.nb      10 23203 23259 -11592     23183   1     0.3809
+

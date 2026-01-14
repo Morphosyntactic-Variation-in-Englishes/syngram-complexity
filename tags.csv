@@ -1,0 +1,88 @@
+POS-tag,Description,Bound
+APPGE,"possessive pronoun, pre-nominal",no
+AT,article,no
+AT1,article,no
+CC,co-ordinating conjunction,no
+CB,"co-ordinating conjunction, but",no
+CS,subordinating conjunction,no
+CSA,"conjunction, as",no
+CSN,"conjunction, than",no
+CST,"conjunction, that",no
+CSW,"conjunction, whether",no
+DD,determiner,no
+DD1,determiner,no
+DD2,determiner,no
+DDQ,Wh-determiner,no
+DDQGE,Wh-determiner,no
+DDQV,Wh-determiner,no
+EX,existential there,no
+GE,genitive s,yes
+IF,for as preposition,no
+II,general preposition,no
+IO,of as preposition,no
+IW,with/without as preposition,no
+JJR,adjective superlative/comparative,yes
+JJT,adjective superlative/comparative,yes
+MC2,noun inflection (plural),yes
+MCGE,genitive cardinal number,yes
+NN2,noun inflection (plural),yes
+NNL2,noun inflection (plural),yes
+NNO2,noun inflection (plural),yes
+NNT2,noun inflection (plural),yes
+NNU2,noun inflection (plural),yes
+NP2,noun inflection (plural),yes
+NPD2,noun inflection (plural),yes
+NPM2,noun inflection (plural),yes
+PN,indefinite pronoun,no
+PN1,indefinite pronoun,no
+PNQO,Wh-pronoun,no
+PNQS,Wh-pronoun,no
+PNQV,Wh-ever pronoun,no
+PNX1,reflexive indefinite pronoun,no
+PPGE,nominal possessive pronoun,no
+PPH1,personal pronoun,no
+PPHO1,personal pronoun,no
+PPHO2,personal pronoun,no
+PPHS1,personal pronoun,no
+PPHS2,personal pronoun,no
+PPIO1,personal pronoun,no
+PPIO2,personal pronoun,no
+PPIS1,personal pronoun,no
+PPIS2,personal pronoun,no
+PPX1,Reflexive personal pronoun,no
+PPX2,Reflexive personal pronoun,no
+PPY,personal pronoun,no
+RGQ,Wh-degree adverb,no
+RGQV,Wh-degree adverb,no
+RRQ,Wh-general adverb,no
+RRQV,Wh-general adverb,no
+TO,infinitive marker TO,no
+VBDR,verbal inflection,yes
+VBDZ,verbal inflection,yes
+VBG,verbal inflection,yes
+VBM,verbal inflection,yes
+VBN,verbal inflection,yes
+VBR,verbal inflection,yes
+VBZ,verbal inflection,yes
+VDD,verbal inflection,yes
+VDG,verbal inflection,yes
+VDN,verbal inflection,yes
+VDZ,verbal inflection,yes
+VHD,verbal inflection,yes
+VHG,verbal inflection,yes
+VHN,verbal inflection,yes
+VHZ,verbal inflection,yes
+VM,modal auxiliary,no
+VMK,modal catenative,no
+VVD,verbal inflection,yes
+VVG,verbal inflection,yes
+VVGK,verbal inflection,yes
+VVN,verbal inflection,yes
+VVNK,verbal inflection,yes
+VVZ,verbal inflection,yes
+XX,analytic negation,no
+more/most,superlative/comparative usage,no
+auxiliary be/have/do,auxiliary be/have/do,no
+,,
+,,
+Consult the CLAWS4 POS Tagger Documentation for more detailed descriptions: http://ucrel.lancs.ac.uk/claws7tags.html,,

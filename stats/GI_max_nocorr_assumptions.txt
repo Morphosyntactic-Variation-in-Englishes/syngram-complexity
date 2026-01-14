@@ -1,0 +1,24 @@
+
+overdisp_fun(GI_max_nocorr)  # using standard Pearson Chi-square (code from Bolker et al. (2017): GLMM FAQ)
+      chisq        ratio          rdf            p 
+11345.700869     5.915381  1918.000000     0.000000 
+
+# check other model assumptions
+
+check_zeroinflation(GI_max_nocorr)
+
+
+Model has no observed zeros in the response variable.
+NULL
+
+check_collinearity(GI_max_nocorr)
+
+ 
+# Check for Multicollinearity
+
+Low Correlation
+
+             Term  VIF       VIF 95% CI adj. VIF Tolerance Tolerance 95% CI
+    log10_natives 1.01 [1.00,     1.39]     1.01      0.99     [0.72, 1.00]
+ prop_non_natives 1.01 [1.00,     1.38]     1.01      0.99     [0.72, 1.00]
+    language_type 1.00 [1.00,      Inf]     1.00      1.00     [0.00, 1.00]

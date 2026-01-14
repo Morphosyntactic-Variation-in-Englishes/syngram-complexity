@@ -1,0 +1,23 @@
+
+overdisp_fun(GI_max_nocorr.nb)
+
+    chisq        ratio          rdf            p 
+1878.7839478    0.9800647 1917.0000000    0.7292532 
+
+## check other model assumptions
+
+check_zeroinflation(GI_max_nocorr.nb)
+
+check_collinearity(GI_max_nocorr.nb)
+
+   
+Model has no observed zeros in the response variable.
+NULL
+# Check for Multicollinearity
+
+Low Correlation
+
+             Term  VIF     VIF 95% CI adj. VIF Tolerance Tolerance 95% CI
+    log10_natives 1.02 [1.00,   1.16]     1.01      0.98     [0.86, 1.00]
+ prop_non_natives 1.03 [1.00,   1.15]     1.01      0.97     [0.87, 1.00]
+    language_type 1.00 [1.00, 552.06]     1.00      1.00     [0.00, 1.00]

@@ -11,7 +11,7 @@ tba
 
 This repository provides the original linguistic data, scripts and additional statistics as presented in
 
-- Ehret, Katharina. Accepted. "Contact and complexity in English varieties: The influence of speaker numbers on syntheticity and grammaticity" *PLOS One*.
+- Ehret, Katharina. 2026. "Contact and complexity in English varieties: The influence of speaker numbers on syntheticity and grammaticity" *PLOS One* 21 (1): e0341167. (https://doi.org/10.1371/journal.pone.0341167)
 
 The demographic data used in the analysis is openly available from [Zenodo](https://zenodo.org/records/16794586). 
 

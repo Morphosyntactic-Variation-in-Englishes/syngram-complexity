@@ -5,7 +5,8 @@
 
 ### DOI
 
-tba
+<img width="193" height="20" alt="image" src="https://github.com/user-attachments/assets/218fada5-51d3-4d61-a78d-38632e95676b" />
+
 
 ### Description
 
@@ -48,4 +49,4 @@ Licence]( https://creativecommons.org/licenses/by-nc/4.0/)
 
 #### Cite as
 
-TBA
+Kat Ehret. (2026). Morphosyntactic-Variation-in-Englishes/syngram-complexity: syngram-complexity (Version v1.0) [Computer software]. Zenodo. (https://doi.org/10.5281/zenodo.24462239)
